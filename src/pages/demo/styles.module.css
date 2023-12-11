@@ -1,0 +1,143 @@
+.body {
+    background: #452533;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+.footerBox {
+    width: 100%;
+    height: 10px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    align-items: center;
+}
+.marginTop10 {
+    margin-top: 10pt;
+}
+
+.marginTop20 {
+    margin-top: 20pt;
+}
+
+.marginTop30 {
+    margin-top: 30pt;
+}
+
+.sectionTitle {
+    font-family: Gilroy, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Gilroy, sans-serif;
+}
+.required::after {
+    font-family: Gilroy, sans-serif;
+    content: ' *';
+    color: red;
+    font-size: 20px;
+    float: left;
+}
+.input[type='text'] {
+    font-family: Gilroy, sans-serif;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #000;
+    /* border: 1px solid white; */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.paragraph {
+    font-family: Gilroy, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.validateAlert {
+    font-family: Gilroy, sans-serif;
+    color: #bf1650;
+    font-size: 10px;
+    margin-top: 5pt;
+}
+
+.validateAlert::before {
+    display: inline;
+    content: '⚠ ';
+}
+
+.select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #000;
+    /* border: 1px solid white; */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.btnSubmitBox {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSubmit[type='submit'] {
+    background: #bbaa77;
+    color: white;
+    text-transform: uppercase;
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.btnSubmit[type='submit']:hover {
+    background: #cc347a;
+    /* transition: 0.3s all; */
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+    background: linear-gradient(to right, #cc347a 50%, #bbaa77 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+}
+
+.input:disabled {
+    opacity: 0.4;
+}

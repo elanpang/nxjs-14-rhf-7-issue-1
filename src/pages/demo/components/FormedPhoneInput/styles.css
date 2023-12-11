@@ -1,0 +1,38 @@
+:root {
+    --PhoneInputCountryFlag-height: 2em;
+    --PhoneInputCountryFlag-borderWidth: 1px;
+    /* --PhoneInputCountryFlag-borderColor: rgba(0, 0, 0, 0.5); */
+    /* --PhoneInputCountrySelectArrow-color: currentColor; */
+    /* --PhoneInputCountrySelectArrow-color: var(--PhoneInput-color--focus); */
+    --PhoneInputCountryFlag-borderColor: #05aa77;
+    --PhoneInputCountrySelectArrow-color: #05aa77;
+}
+
+.PhoneInputCountryIcon--border {
+    margin-bottom: 10px;
+}
+.PhoneInputCountryIconImg {
+    /* padding-bottom: 0px; */
+}
+.PhoneInputCountrySelectArrow {
+    /* width: 10px; */
+}
+
+/* select, */
+input {
+    font-family: Gilroy, sans-serif;
+    color: black;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #000;
+    /* border: 1px solid white; */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input:disabled {
+    opacity: 0.4;
+}
